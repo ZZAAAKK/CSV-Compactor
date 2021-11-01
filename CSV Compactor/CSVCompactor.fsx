@@ -60,7 +60,7 @@ let ReadFilesIntoMemory (files : seq<string>) =
         dataSet <- dt :: dataSet
     dataSet
 
-let DiscoverFiles directory = [ for file in Directory.GetFiles(directory) do yield file ]
+let DiscoverFiles directory = [ for file in Directory.GetFiles(directory) do if Path.GetExtension(file) = ".csv" then yield file ]
 
 let args = fsi.CommandLineArgs
 args.[1] // input folder
