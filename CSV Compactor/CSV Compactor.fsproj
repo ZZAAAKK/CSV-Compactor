@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework> 
+    <RootNamespace>CSV_Compactor</RootNamespace> 
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="CSVCompactor.fsx" />
+  </ItemGroup>
+
+  <ItemGroup />
+</Project>
