@@ -10,5 +10,4 @@ This is a simple script which takes in any number of csv files, compares them to
 ## Troubleshooting:
 - If you can't run the file at all, and get a dotnet error, or 'dotnet is not a recognised...' error, then you need to install either dotnet, or F# - I'm not going into the details on how to install those here as it's well documented elsewhere.
 - If you get error FS0087 then you're in the wrong folder.
-- If you get an IO error, indicating the new file is in use by another process then you've probably selected an output folder which is synced to the likes of OneDrive etc. - run the program again with the same parameters to resolve.
 - Any other issues, please raise an issue via the issues tab.
